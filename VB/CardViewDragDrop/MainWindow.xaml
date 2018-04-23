@@ -1,0 +1,22 @@
+﻿<Window x:Class="CardViewDragDrop.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid"
+        xmlns:dxmvvm="http://schemas.devexpress.com/winfx/2008/xaml/mvvm"
+        xmlns:DXSample="clr-namespace:DXSample"
+        xmlns:dde="clr-namespace:DXSample.DragDropExtension"
+        Title="MainWindow" Height="647" Width="1052.32">
+    <Window.DataContext>
+        <DXSample:OrderHelper/>
+    </Window.DataContext>
+    <Grid>
+        <dxg:GridControl AutoPopulateColumns="True" Margin="10" ItemsSource="{Binding Orders}" SelectionMode="Row">
+            <dxg:GridControl.View>
+                <dxg:CardView ShowTotalSummary="True" EditorShowMode="MouseUp" />
+            </dxg:GridControl.View>
+            <dxmvvm:Interaction.Behaviors>
+                <dde:CardDragDropManager/>
+            </dxmvvm:Interaction.Behaviors>
+        </dxg:GridControl>
+    </Grid>
+</Window>
