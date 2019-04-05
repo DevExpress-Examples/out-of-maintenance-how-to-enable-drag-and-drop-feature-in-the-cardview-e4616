@@ -5,7 +5,7 @@
 * [CardHitTestVisitor.cs](./CS/CardViewDragDrop/DXExample/DragDropExtension/CardHitTestVisitor.cs) (VB: [CardHitTestVisitor.vb](./VB/CardViewDragDrop/DXExample/DragDropExtension/CardHitTestVisitor.vb))
 * [OrderHelper.cs](./CS/CardViewDragDrop/DXExample/OrderHelper.cs) (VB: [OrderHelper.vb](./VB/CardViewDragDrop/DXExample/OrderHelper.vb))
 * **[MainWindow.xaml](./CS/CardViewDragDrop/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/CardViewDragDrop/MainWindow.xaml))**
-* [MainWindow.xaml.cs](./CS/CardViewDragDrop/MainWindow.xaml.cs) (VB: [MainWindow.xaml](./VB/CardViewDragDrop/MainWindow.xaml))
+* [MainWindow.xaml.cs](./CS/CardViewDragDrop/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/CardViewDragDrop/MainWindow.xaml.vb))
 <!-- default file list end -->
 # How to enable Drag-and-Drop feature in the CardView
 
