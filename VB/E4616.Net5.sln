@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CardViewDragDrop", "CardViewDragDrop.vbproj", "{ED8C5875-B13A-4915-AA3C-422FC754393A}"
+# Visual Studio 16
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CardViewDragDrop", "CardViewDragDrop.Net5.vbproj", "{ED8C5875-B13A-4915-AA3C-422FC754393A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
